@@ -14,7 +14,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
-    <title>팀원 소개</title>
+    <title>내일배움캠프 5조 팀원 소개</title>
     <style>
         @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
@@ -248,13 +248,12 @@
         <div class="frame w-full">
             <div class="main-content">
                 <div class="team-header">
-<<<<<<< HEAD
                     <h1 class="team-title font-bold">
                         <span class ="icon">👥</span>팀원 소개</h1>
-=======
-                    <h1 class="team-title font-bold">spring 3기 5조입니다</h1>
->>>>>>> 3b9ee95 (팀 제목 텍스트 변경)
                     <p class="team-subtitle font-regular">함께 성장하는 우리 팀을 만나보세요</p>
+
+                    <h1 class="team-title font-bold">팀원 소개</h1>
+                    <p class="team-subtitle font-regular">함께 성장하는 5조입니다!</p>
                 </div>
 
                 <div id="team-container" class="team-grid">
@@ -317,6 +316,7 @@
             } catch (error) {
                 console.error('Error loading team members:', error);
                 container.innerHTML = '<div class="error">팀원 정보를 불러오는 중 오류가 발생했습니다.</div>';
+                setTimeout(() => loadTeamMembers(), 3000);
             }
         }
 
