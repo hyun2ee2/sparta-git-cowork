@@ -1,0 +1,68 @@
+{
+  "id": "임호진",
+  "name": "임호진",
+  "subName": "스파르타 수강생",
+  "profileImage": "image/strength-2.png",
+  "introduction": {
+    "quote": "hello world(print)",
+    "detail": "meme"
+  },
+  "info": {
+    "description": "JavaScript를 활용하여 React/Node.js 풀스택 개발을 하고 있습니다.",
+    "birthday": "1995.12.31",
+    "location": "icheon",
+    "email": "jiwoong.choi.dev@gmail.com",
+    "phone": "010-0000-0000"
+  },
+  "strengths": [
+    "의사소통",
+    "도전 정신",
+    "리더십"
+  ],
+  "skills": [
+    { "name": "HTML", "progress": 3 },
+    { "name": "CSS", "progress": 10 },
+    { "name": "JavaScript", "progress": 15 },
+    { "name": "React", "progress": 0 },
+    { "name": "Node.js", "progress": 0 }
+  ],
+  "licenses": [
+    "SQLD 자격증",
+    "ADsP 자격증"
+  ],
+  "education": [
+    {
+      "name": "문일고등학교",
+      "period": "2011.03.02 ~ 2014.02.14",
+      "location": "서울시 금천구"
+    },
+    {
+      "name": "용인대학교",
+      "period": "2014.03.02 ~ 2018.02.20",
+      "gpa": "3.9",
+      "location": "용인시 처인구"
+    }
+  ],
+  "experience": [
+    {
+      "period": "7년",
+      "company": "KOR ARMY",
+      "term": "2018.03~2025.06",
+      "team": "finance",
+      "task": "account",
+      "project": {
+        "name": "재무회계 결산 및 출납계약",
+        "term": "2018.07~2025.06",
+        "detail": ":D"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "git 사용하기",
+      "description": "git",
+      "image": "image/p1.png",
+      "link": "project.html"
+    }
+  ]
+}
