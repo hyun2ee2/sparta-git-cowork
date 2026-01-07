@@ -263,7 +263,7 @@
         // members 디렉토리에서 모든 JSON 파일 목록을 가져오는 함수
         async function loadTeamMembers() {
             const container = document.getElementById('team-container');
-            container.innerHTML = '<div class="loading">팀원 정보를 불러오는 중...</div>';
+            container.innerHTML = '<div class="loading"><div class="spinner"></div>팀원 정보를 불러오는 중...</div>';
 
             try {
                 // members 디렉토리의 파일 목록을 가져오기
