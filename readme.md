@@ -2,7 +2,7 @@
 
 Git 커밋 협업을 통한 팀원 소개 페이지 프로젝트입니다.
 
-![main image](./image/main.png)
+![main image](./image/main.png?v=2)
 
 ## 프로젝트 구조
 
