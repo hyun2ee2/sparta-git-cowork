@@ -46,7 +46,7 @@ git checkout -b add-member-<your-name>
 
 2. 선택한 템플릿 파일을 복사하여 본인의 JSON 파일을 생성합니다:
    ```bash
-   cp members/member1.json members/본인아이디.json
+   cp members/jimin.json members/본인아이디.json
    ```
 
 3. 생성한 JSON 파일을 열어 본인의 정보로 수정합니다.
@@ -120,7 +120,7 @@ git checkout -b add-member-<your-name>
 ```json
 {
   "members": [
-    "member1.json",
+    "jimin.json",
     "member2.json",
     "member3.json",
     "member4.json",
@@ -182,7 +182,7 @@ git push origin add-member-<your-name>
 git checkout -b add-member-kim
 
 # 2. 템플릿 복사 (프론트엔드 개발자인 경우)
-cp members/member1.json members/kim.json
+cp members/jimin.json members/kim.json
 
 # 3. JSON 파일 수정
 # members/kim.json 파일을 열어 본인 정보로 수정

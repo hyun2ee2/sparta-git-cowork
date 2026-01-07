@@ -1,0 +1,68 @@
+{
+  "id": "hoon3948",
+  "name": "강태훈",
+  "subName": "풀스택 개발자",
+  "profileImage": "image/profile_image.png",
+  "introduction": {
+    "quote": "안녕하십니까\n백엔드를 마스터하고 싶은 개발자 지망생입니다.",
+    "detail": "내일배움캠프 6개월 동안 잘 배우겠습니다."
+  },
+  "info": {
+    "description": "내일배움캠프 커머스 Spring 3기",
+    "birthday": "2001.12.11",
+    "location": "울산광역시 중구",
+    "email": "robot3949@gmail.com",
+    "phone": "010-4610-3948"
+  },
+  "strengths": [
+    "통찰력",
+    "실행력",
+    "팀워크"
+  ],
+  "skills": [
+    { "name": "HTML", "progress": 85 },
+    { "name": "CSS", "progress": 80 },
+    { "name": "JavaScript", "progress": 90 },
+    { "name": "React", "progress": 85 },
+    { "name": "Node.js", "progress": 80 }
+  ],
+  "licenses": [
+    "없음"
+  ],
+  "education": [
+    {
+      "name": "함월고등학교",
+      "period": "2017.03.02 ~ 2020.02.14",
+      "location": "울산광역시 중구"
+    },
+    {
+      "name": "고려대학교 세종",
+      "period": "2020.03.02 ~ 2026.02.20",
+      "gpa": "0.1",
+      "location": "세종특별자치시 조치원읍"
+    }
+  ],
+  "experience": [
+    {
+      "period": "6개월",
+      "company": "내일배움캠프 커머시",
+      "term": "2025.12~2026.06",
+      "team": "5조, 개발자 지망생",
+      "task": "팀원 소개 웹 페이지 개발",
+      "project": {
+        "name": "팀원 소개 페이지",
+        "term": "2026.01~2026.01",
+        "detail": "git을 활용하여 팀원 소개카드 수정"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "팀원 소개 페이지",
+      "description": "팀으로 협업하여 팀원을 소개하는 웹 플랫폼을 개발했습니다",
+      "image": "image/p2.png",
+      "link": "project2.html"
+    }
+  ]
+}
+

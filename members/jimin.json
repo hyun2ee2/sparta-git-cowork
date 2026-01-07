@@ -1,0 +1,68 @@
+{
+  "id": "member1",
+  "name": "이지민",
+  "subName": "백엔드 개발자 되고 싶어요",
+  "profileImage": "image/profile_image.png",
+  "introduction": {
+    "quote": "안녕하세요\n백엔드 개발자가 되고 싶은 이지민입니다.",
+    "detail": "스파르타 내일배움캠프 6개월동안 열심히 해서 꼭 취업 성공하겠습니다."
+  },
+  "info": {
+    "description": "내일배움캠프 Spring 3기",
+    "birthday": "2002.10.03",
+    "location": "제주특별자치도 제주시",
+    "email": "leejimin8951@naver.com",
+    "phone": "010-6458-6320"
+  },
+  "strengths": [
+    "창의성",
+    "협업",
+    "문제해결"
+  ],
+  "skills": [
+    { "name": "HTML,CSS", "progress": 80 },
+    { "name": "Unity", "progress": 85 },
+    { "name": "JavaScript", "progress": 90 },
+    { "name": "React", "progress": 85 },
+    { "name": "Spring", "progress": 75 }
+  ],
+  "licenses": [
+    "정보처리기사"
+  ],
+  "education": [
+    {
+      "name": "제주 신성여자고등학교",
+      "period": "2018.03.02 ~ 2021.02.14",
+      "location": "제주특별자치도 제주시"
+    },
+    {
+      "name": "제주대학교",
+      "period": "2021.03.02 ~ 2026.02.20",
+      "gpa": "4.0",
+      "location": "제주특별자치도 제주시"
+    }
+  ],
+  "experience": [
+    {
+      "period": "신입",
+      "company": "스파르타",
+      "term": "2026.01~2026.06",
+      "team": "Spring 3기 5조",
+      "task": "Git & Github 팀 협업",
+      "project": {
+        "name": "협업으로 팀 소개페이지 만들기",
+        "term": "2026.01.06~2026.01.07",
+        "detail": "Github 협업"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "쇼핑몰 웹사이트",
+      "description": "React와 Node.js를 활용한 전자상거래 플랫폼을 개발했습니다. 사용자 인증, 상품 관리, 결제 시스템을 구현하여 안정적인 쇼핑 경험을 제공합니다.",
+      "image": "image/p1.png",
+      "link": "project.html"
+    }
+  ]
+}
+
