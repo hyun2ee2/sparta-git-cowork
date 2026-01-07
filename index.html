@@ -248,8 +248,12 @@
         <div class="frame w-full">
             <div class="main-content">
                 <div class="team-header">
+<<<<<<< HEAD
                     <h1 class="team-title font-bold">
                         <span class ="icon">👥</span>팀원 소개</h1>
+=======
+                    <h1 class="team-title font-bold">spring 3기 5조입니다</h1>
+>>>>>>> 3b9ee95 (팀 제목 텍스트 변경)
                     <p class="team-subtitle font-regular">함께 성장하는 우리 팀을 만나보세요</p>
                 </div>
 
@@ -264,7 +268,7 @@
         // members 디렉토리에서 모든 JSON 파일 목록을 가져오는 함수
         async function loadTeamMembers() {
             const container = document.getElementById('team-container');
-            container.innerHTML = '<div class="loading">팀원 정보를 불러오는 중...</div>';
+            container.innerHTML = '<div class="loading"><div class="spinner"></div>팀원 정보를 불러오는 중...</div>';
 
             try {
                 // members 디렉토리의 파일 목록을 가져오기
@@ -295,7 +299,7 @@
                             members.push(member);
                         }
                     } catch (error) {
-                        console.error(`Failed to load ${file}:`, error);
+                        console.error(`Error loading team members:`, error);
                     }
                 }
 
