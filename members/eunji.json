@@ -1,0 +1,67 @@
+{
+  "id": "member3",
+  "name": "정은지",
+  "subName": "비전공자 백린이",
+  "profileImage": "image/profile_image.png",
+  "introduction": {
+    "quote": "맡은 바에 열심히 임하는 \\n비전공자 백린이입니다.",
+    "detail": "git 명령어를 통해 자기소개를 작성합니다"
+  },
+  "info": {
+    "description": "현재 내일배움캠프 백엔드 Spring 3기 입니다.",
+    "birthday": "2000.11.21",
+    "location": "대전광역시 유성구",
+    "email": "norgg021@gmail.com",
+    "phone": "010-4178-3142"
+  },
+  "strengths": [
+    "성실함",
+    "꾸준함",
+    "의사소통"
+  ],
+  "skills": [
+    { "name": "Git", "progress": 95 },
+    { "name": "Java Script", "progress": 90 },
+    { "name": "HTTP", "progress": 85 },
+    { "name": "CSS", "progress": 80 },
+    { "name": "HTML", "progress": 60 }
+  ],
+  "licenses": [
+    "없음"
+  ],
+  "education": [
+    {
+      "name": "사동고등학교",
+      "period": "2016.03.02 ~ 2019.02.14",
+      "location": "경상북도 경산시"
+    },
+    {
+      "name": "영남대학교",
+      "period": "2022.03.02 ~ 2024.02.20",
+      "gpa": "-",
+      "location": "경상북도 경산시"
+    }
+  ],
+  "experience": [
+    {
+      "period": "1년이상",
+      "company": "KISTEP",
+      "term": "2024.11~2025.12",
+      "team": "KISTEP/사원1팀",
+      "task": "홈페이지 안내",
+      "project": {
+        "name": "문의유형 구분",
+        "term": "2025.05~2025.06",
+        "detail": "문의자의 주요 문의 유형 데이터를 조사하여 엑셀로 순위를 정리하였습니다"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "과제접수 안내 매뉴얼 작성",
+      "description": "이미지와 팁을 활용해 이용자들이 홈페이지를 쉽게 이용할 수 있도록 매뉴얼을 작성하였습니다",
+      "image": "image/p1.png",
+      "link": "-"
+    }
+  ]
+}
